@@ -1,0 +1,270 @@
+
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+}
+.App{
+    width:100%;
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+a.active{
+    color:red
+}
+.navPosition{
+    width:100%;
+    padding:0px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+
+   
+}
+.body{
+    margin-top:115px;
+}
+.navbar{
+    background-color:rgb(237, 240, 247);
+}
+.navbar ul{
+    padding:10px 30px;
+    border-radius:30px;
+    box-shadow :0 0 30px 0 rgba(0,0,0,0.5)
+}
+.navbar ul li{
+    display:inline-block;
+    justify-content:center;
+    align-items:center;
+    padding-right:25px;
+}
+.Button{
+    height:45px;
+    width:100px;
+    background-color:rgb(64,64,197);
+    color:white;
+    border:0px;
+    border-radius:8px;
+    margin-right:20px;
+}
+.Button:hover{
+    color:rgb(241, 177, 177);
+}
+
+
+.carousel{
+    height:auto;
+    width:100%;
+    background-color:rgb(64, 64, 197);
+    padding: 50px  40px;
+    text-align:center;
+    
+    
+}
+.carousel h1{
+    
+    font-size: 60px;
+    font-weight: 500;
+    color:white;
+    
+    
+}
+.carousel h3{
+    color:rgb(161, 161, 248)
+}
+.button-group{
+    width:100%;
+    background-color:rgb(64,64,197);
+    
+    
+}
+
+.button{
+    height:45px;
+    width:100px;
+    background-color:rgb(240, 240, 250);
+    color:rgb(64, 64, 197);
+    border:0;
+    border-radius:8px;
+    margin:10px 35px;
+   
+}
+.button:hover{
+    background-color:rgb(241,177,177);
+    color:white;
+}
+
+.process{
+    font-size: 40px;
+    font-weight: 600;
+    justify-self:center;
+    padding-top:50px;
+    margin-bottom:50px;
+    color:rgb(5, 65, 88);
+}
+.number{
+    justify-self:end;
+    color:rgb(5, 65, 88);
+    
+}
+
+.stepOne{
+   height:150px;
+    border-style:solid;
+    border-width:0;
+    border-color:grey;
+    border-left-width:10px;
+    border-left-color:rgb(64,64,197);
+    border-radius:8px;
+    box-shadow:5px 8px 10px;  
+    margin-bottom:10px;
+    background-color:white;
+    color:rgb(5, 65, 88);
+    text-align:center;
+    padding-top:15px;
+   
+}
+.stepTitle{
+    
+    justify-self:center;
+}
+.footerOne{
+    height:auto;
+  max-width:100%;
+    color:rgb(161,161,248);
+    background-color:rgb(64, 64, 197);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:20px;
+   
+}
+.homeFooter{
+    margin-bottom:80px;
+}
+
+.footerOne h1{
+    color:white;
+}
+.footerTwo{
+    height:auto;
+    background-color:rgb(56, 57, 59);
+    margin-bottom:1px;
+
+    color:white;
+}
+.admission{
+    color:goldenrod;
+}
+.copyRight{
+    
+    height:70px;
+    
+    background-color:rgb(56, 57, 59);
+    color:white;
+    
+    
+}
+.copyRight Col {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.programme-container{
+    margin:50px;
+}
+
+.courseButton{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    
+}
+.buttons{
+    width:100%;
+    height:55px;
+    background-color:white;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    border:0;
+    color:grey;
+    border-radius:8px;
+    color:blue;
+}
+.buttons:hover{
+    background-color:rgb(237, 240, 247);
+
+}
+
+.buttons:focus{
+    background-color:rgb(64, 64, 197);
+    color:white;
+}
+
+
+
+.program-heading{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-bottom:40px;
+
+}
+.programs{
+    height:230px;
+    border:0;
+    background-color:white;
+    border-radius:8px;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.5);
+    margin:0 35px 50px 0;
+    overflow:hidden;
+    
+}
+.programs h6{
+    background-color:skyblue;
+    border:0;
+    border-radius:4px;
+    height:25px;
+    width:35px;
+    text-align:center;
+    margin-left:15px;
+   
+}
+
+.programs h5{
+    margin-left:15px;
+}
+.programs p{
+    color:grey;
+    margin-left:15px;
+}
+.programs-logo{
+    height:50px;
+    border:0;
+    background-color:skyblue;
+    
+}
+
+.contact{
+    margin:100px 0 100px 0;
+}
+
+.atc-contact{
+    height:300px;
+    width:200px;
+   margin-right:80px;
+   padding:20px 0 20px 50px;
+   border-radius:8px;
+   background-color:rgb(237, 240, 247);
+   box-shadow:-5px 5px  skyblue,-10px 10px blue , -15px 15px navy;
+}
+.atc-contact h3{
+    color:blue;
+}
+
