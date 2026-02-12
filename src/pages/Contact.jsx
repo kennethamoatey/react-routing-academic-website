@@ -1,10 +1,16 @@
 import React from 'react'
 import CarouselComponent from '../component/CarouselComponent'
 import {Container,Row,Col} from 'react-bootstrap'
+import NavComponent from '../component/NavComponent';
 
 
 const Contact = () => {
   return (<div>
+    <div className="navPosition">
+       <NavComponent /> 
+         
+     </div>
+
     <CarouselComponent text='Contact Us'
     note='Get in touch with our admission team for undergraduate and postgraduate inquiries' />
    

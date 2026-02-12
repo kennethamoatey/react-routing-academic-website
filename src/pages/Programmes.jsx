@@ -2,6 +2,8 @@ import React from 'react'
 import CarouselComponent from '../component/CarouselComponent'
 import {Container,Row,Col,Form} from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
+import Footer from '../component/Footer';
+import NavComponent from '../component/NavComponent';
 
 const Programmes = () => {
 
@@ -9,6 +11,10 @@ const Programmes = () => {
 
   return (
   <div>
+    <div className="navPosition">
+       <NavComponent /> 
+         
+     </div>
      <CarouselComponent  text='Advance Technical College Academic Programmes' note='Explore our comprehensive range of
        undergraduate, postgraduate, and certificate programs designed to prepare you for successful
         careers in mining, technology, and related fields.' />
@@ -40,6 +46,7 @@ const Programmes = () => {
       
       
     </Container >
+    <Footer/>
   </div>
     
   )

@@ -4,13 +4,21 @@ import { useNavigate } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Footer from '../component/Footer';
+import NavComponent from '../component/NavComponent';
 
 
 
 const Home = () => {
   const Navigate=useNavigate()
+  
   return (
   <div>
+    <div className="navPosition">
+           <NavComponent /> 
+             
+         </div>
+
      <CarouselComponent text='Advance Technical College Application Portal'
      note='Apply for admission to Ghana premier University College.'/>
      <div className='button-group'>
@@ -87,6 +95,8 @@ const Home = () => {
 
 
      </Container>
+
+     <Footer/>
      
       
     </div>
