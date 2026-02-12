@@ -28,7 +28,7 @@ const NavComponent = () => {
       </Row>
       <Row>
         <Col>
-          <button className='Button' onClick={()=>{Navigate('/Form')}}  >Apply Now</button>
+          <button className='Button' onClick={()=>{Navigate('Form')}}  >Apply Now</button>
         </Col>
       </Row>
      

@@ -8,6 +8,7 @@ import ProgrammesLayout from './layout/ProgrammesLayout';
 import Undergraduate from './component/Undergraduate';
 import Postgraduate from './component/Postgraduate';
 import Certificate from './component/Certificate';
+import Error from './pages/Error'
 
 
 import { createBrowserRouter, createRoutesFromElements,Route,
@@ -16,25 +17,26 @@ import { createBrowserRouter, createRoutesFromElements,Route,
 const App = () => {
 
   const router=createBrowserRouter(
+    
     createRoutesFromElements(
     <Route path='/' element={<RootLayout/>} >
       <Route index element={<Home/>}/>
-
       <Route path='Programmes' element={<ProgrammesLayout/>}>
-       <Route path='Undergraduate' element={<Undergraduate/>} />
-       <Route path='Postgraduate' element={<Postgraduate/>} />
-       <Route path='Certificate' element={<Certificate/>} />
+        <Route path='Undergraduate' element={<Undergraduate/>} />
+        <Route path='Postgraduate' element={<Postgraduate/>} />
+        <Route path='Certificate' element={<Certificate/>} />
       </Route>
-        
-
       <Route path='Contact' element={<Contact/>}/>
       <Route path='Form' element={<Form/>} />
+      <Route path='*' element={<Error/>} />,
     </Route>
     
   ))
-  return (
+  return (<div>
+    <RouterProvider router={router}/>
+  </div>
    
-        <RouterProvider router={router}/>
+        
        
 
      

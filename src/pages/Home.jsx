@@ -81,7 +81,7 @@ const Home = () => {
                   <Col className="footerOne">
                   <h1>Ready to Begin Your Journey?</h1>
                   <h3>Take the first step towards your career in mining and technology. Start your application today.</h3>
-                  <button className="button">Log In</button>
+                  <button className="button" onClick={()=>Navigate('Form')} >Log In</button>
                   </Col>
               </Row>
 

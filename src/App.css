@@ -118,7 +118,7 @@ a.active{
     border-left-width:10px;
     border-left-color:rgb(64,64,197);
     border-radius:8px;
-    box-shadow:5px 8px 10px;  
+    box-shadow:0 0 15px  ;  
     margin-bottom:10px;
     background-color:white;
     color:rgb(5, 65, 88);
@@ -185,7 +185,7 @@ a.active{
     
 }
 .buttons{
-    width:100%;
+    width:100vw;
     height:55px;
     background-color:white;
     font-family: sans-serif;
@@ -267,4 +267,85 @@ a.active{
 .atc-contact h3{
     color:blue;
 }
+.errorpage{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin:120px 0 120px 0;
+}
+.oops{
+    font-family:serif;
+    font-weight: bolder;
+    font-size: 120px;
+    color:navy;
+    
+}
+.errorheading{
+    font-family: serif;
+    font-weight:bold;
+    color:blue;
+}
+.errormessage{
+    color:skyblue;
+}
+.errorbutton{
+    width:280px;
+    height:55px;
+    background-color:white;
+    border:0;
+    border-radius:8px;
+    color:blue;
+}
+.errorbutton:hover{
+    background-color:rgb(237, 240, 247);
+
+}
+
+.errorbutton:focus{
+    background-color:rgb(64, 64, 197);
+    color:white;
+}
+.formpage{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+.formpage p{
+    color:skyblue;
+}
+
+.form{
+    
+    height:auto;
+    width:400px;
+    border:0;
+    padding:30px;
+    border-radius:10px;
+    margin-bottom:50px;
+    box-shadow:0 0 10px grey;
+}
+.form p {
+    color:rgb(145, 13, 13);
+}
+.form input{
+    margin-bottom: 10px;
+    width:100%;
+    height:35px;
+    border-radius:5px;
+    background-color:rgb(237, 240, 247);
+    border:0;
+
+}
+.form button{
+    width:100%;
+    height:35px;
+    border-radius:5px;
+    background-color:skyblue;
+    border:0;
+    margin-top:15px;
+}
+
 
