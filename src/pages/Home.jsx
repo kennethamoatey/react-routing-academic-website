@@ -1,6 +1,6 @@
 import React from 'react'
 import CarouselComponent from '../component/CarouselComponent'
-import { useNavigate } from 'react-router-dom'
+import { NavLink,useNavigate } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -11,13 +11,15 @@ import NavComponent from '../component/NavComponent';
 
 const Home = () => {
   const Navigate=useNavigate()
-  
+
   return (
   <div>
     <div className="navPosition">
-           <NavComponent /> 
+      <NavComponent/>
+    </div>
+          
              
-         </div>
+         
 
      <CarouselComponent text='Advance Technical College Application Portal'
      note='Apply for admission to Ghana premier University College.'/>

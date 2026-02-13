@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container,Row,Col} from 'react-bootstrap'
+import Footer from './Footer'
 
 const Undergraduate = () => {
   return (
@@ -164,6 +165,7 @@ const Undergraduate = () => {
         </Row>
 
     </Container>
+    <Footer/>
 
   </div>
     

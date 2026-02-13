@@ -1,9 +1,10 @@
 import React from 'react'
+import NavComponent from '../component/NavComponent';
+
 import CarouselComponent from '../component/CarouselComponent'
 import {Container,Row,Col,Form} from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
-import Footer from '../component/Footer';
-import NavComponent from '../component/NavComponent';
+
 
 const Programmes = () => {
 
@@ -31,22 +32,22 @@ const Programmes = () => {
         </Col>
       </Row>
       <div className="courseButton">
-        <button className='buttons one'onClick={()=>{navigate('Undergraduate')}}>
+        <button className='buttons one'onClick={()=>navigate('Undergraduate')}>
           Undergraduate
         </button>
 
-        <button className='buttons two' onClick={()=>{navigate('Postgraduate')}}>
+        <button className='buttons two' onClick={()=>navigate('Postgraduate')}>
           Postgraduate
         </button>
 
-        <button className='buttons three'onClick={()=>{navigate('Certificate')}}>
+        <button className='buttons three'onClick={()=>navigate('Certificate')}>
           Certificate
         </button>
       </div>
       
       
     </Container >
-    <Footer/>
+    
   </div>
     
   )
